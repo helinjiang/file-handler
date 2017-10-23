@@ -4,7 +4,7 @@
   "description": "handle files by node",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
@@ -21,6 +21,11 @@
   },
   "homepage": "https://github.com/helinjiang/file-handler#readme",
   "dependencies": {
+    "fs-extra": "^4.0.2",
     "walk-sync": "^0.3.2"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^4.0.1"
   }
 }
