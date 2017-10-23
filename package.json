@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/helinjiang/file-handler/issues"
   },
-  "homepage": "https://github.com/helinjiang/file-handler#readme"
+  "homepage": "https://github.com/helinjiang/file-handler#readme",
+  "dependencies": {
+    "walk-sync": "^0.3.2"
+  }
 }
